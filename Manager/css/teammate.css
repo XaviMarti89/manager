@@ -1,0 +1,38 @@
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    user-select: none;
+}
+
+.teammate{
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+.escut{
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 40%;
+    margin-bottom: 15px;
+}
+
+.player{
+    width: 55px;
+    height: 74.5px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border: 2px solid rgba(3,45,117,255)
+}
+
+
+
+a:hover{
+    cursor: pointer;
+}
+
