@@ -30,9 +30,51 @@ html, body{
     border: 2px solid rgba(3,45,117,255)
 }
 
+.selected{
+    border: 2px solid rgba(123, 245, 39, 0.8)
+}
 
 
 a:hover{
     cursor: pointer;
+    opacity: .5;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: .5;
+}
+
+button{
+    color: #ffffff;
+    background-color: #034177;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family:  Georgia, 'Times New Roman', Times, serif; 
+    margin: 10px 0;
+    width: 60px;
+}
+
+.events{
+    display: flex;
+    flex-direction: column;
+    max-width: 380px;
+    margin: 30px auto;
+}
+
+.event{
+    border: 2px solid rgba(3,45,117,255)
+}
+
+.made{
+    background-color: #34bf44;
+}
+
+.miss{
+    margin-top: 5%;
+    background-color: #d81010;
 }
 

@@ -75,14 +75,7 @@ a{
     text-decoration: none;
 }
 
-.event{
-    background-color: #48b555;
-}
 
-.miss{
-    margin-top: 5%;
-    background-color: #d81010;
-}
 
 button:hover{
     cursor: pointer;
