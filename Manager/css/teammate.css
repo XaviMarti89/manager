@@ -58,6 +58,12 @@ button{
     width: 60px;
 }
 
+#cStats{
+    width: 120px;
+}
+
+
+
 .events{
     display: flex;
     flex-direction: column;
@@ -76,5 +82,10 @@ button{
 .miss{
     margin-top: 5%;
     background-color: #d81010;
+}
+
+li{
+    list-style: none;
+    text-align: center;
 }
 
